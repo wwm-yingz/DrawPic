@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-16T09:35:19.744Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 Edg/91.0.864.48" etag="8N8OvaT38Pl7RZ-YMTYD" version="14.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T13:05:50.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 Edg/91.0.864.48" etag="sCv1LpFCbowpy3LP-j_I" version="14.7.9" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="920" dy="644" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="782" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,19 +8,19 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;基于区间直觉模糊数的量化投资计算方法&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="200" width="400" height="40" as="geometry" />
+          <mxGeometry x="200" y="15" width="400" height="40" as="geometry" />
         </mxCell>
         <mxCell id="7-Ga_h85uuKf9bJolsEg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gl--W32Gvghw4PH7IJEt-1" target="Gl--W32Gvghw4PH7IJEt-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gl--W32Gvghw4PH7IJEt-1" value="通过公开接口获取股票价量数据与财务数据，使用特征工程方法对数据进行处理，计算对应属性。" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="210" y="80" width="200" height="60" as="geometry" />
+          <mxGeometry x="210" y="95" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7-Ga_h85uuKf9bJolsEg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gl--W32Gvghw4PH7IJEt-2" target="Gl--W32Gvghw4PH7IJEt-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Gl--W32Gvghw4PH7IJEt-2" value="使用隶属函数将指标数据转化为隶属度矩阵和非隶属度矩阵" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="210" y="160" width="200" height="60" as="geometry" />
+          <mxGeometry x="210" y="175" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7-Ga_h85uuKf9bJolsEg-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gl--W32Gvghw4PH7IJEt-4" target="i-itXXdyE3jFwgVRu5WB-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -28,53 +28,53 @@
         <mxCell id="7-Ga_h85uuKf9bJolsEg-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gl--W32Gvghw4PH7IJEt-4" target="7-Ga_h85uuKf9bJolsEg-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="300" y="330" />
-              <mxPoint x="420" y="330" />
+              <mxPoint x="300" y="345" />
+              <mxPoint x="420" y="345" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Gl--W32Gvghw4PH7IJEt-4" value="计算区间直觉模糊数决策矩阵" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="210" y="250" width="200" height="60" as="geometry" />
+          <mxGeometry x="210" y="265" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7-Ga_h85uuKf9bJolsEg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gl--W32Gvghw4PH7IJEt-5" target="7-Ga_h85uuKf9bJolsEg-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="540" y="330" />
-              <mxPoint x="420" y="330" />
+              <mxPoint x="540" y="345" />
+              <mxPoint x="420" y="345" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="Gl--W32Gvghw4PH7IJEt-5" value="使用启发式算法求解单目标规划问题得到属性权重" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="460" y="255" width="140" height="55" as="geometry" />
+          <mxGeometry x="460" y="270" width="140" height="55" as="geometry" />
         </mxCell>
         <mxCell id="7-Ga_h85uuKf9bJolsEg-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="i-itXXdyE3jFwgVRu5WB-2" target="i-itXXdyE3jFwgVRu5WB-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i-itXXdyE3jFwgVRu5WB-2" value="使用相容度算子计算各个决策与正负理想方案的相容度" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="460" y="70" width="140" height="50" as="geometry" />
+          <mxGeometry x="460" y="85" width="140" height="50" as="geometry" />
         </mxCell>
         <mxCell id="7-Ga_h85uuKf9bJolsEg-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="i-itXXdyE3jFwgVRu5WB-3" target="Gl--W32Gvghw4PH7IJEt-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="i-itXXdyE3jFwgVRu5WB-3" value="使用相容度，以最大化决策满意度为目标，将权重计算转化为单目标规划问题" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="460" y="160" width="140" height="60" as="geometry" />
+          <mxGeometry x="460" y="175" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="IYp26X13W8cs2_W33zop-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7-Ga_h85uuKf9bJolsEg-0" target="IYp26X13W8cs2_W33zop-0">
+        <mxCell id="IYp26X13W8cs2_W33zop-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="7-Ga_h85uuKf9bJolsEg-0" target="IYp26X13W8cs2_W33zop-0" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="420" y="450" />
-              <mxPoint x="420" y="450" />
+              <mxPoint x="420" y="465" />
+              <mxPoint x="420" y="465" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="7-Ga_h85uuKf9bJolsEg-0" value="根据决策矩阵和属性权重使用加权算子计算二级决策矩阵&lt;br&gt;使用得分函数和精确函数计算各个股票的评价值" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="245" y="360" width="310" height="60" as="geometry" />
+          <mxGeometry x="245" y="375" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7-Ga_h85uuKf9bJolsEg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gl--W32Gvghw4PH7IJEt-5" target="Gl--W32Gvghw4PH7IJEt-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IYp26X13W8cs2_W33zop-0" value="&lt;span&gt;选取前k只股票通过券商平台执行交易&lt;br&gt;属性权重说明了该次交易中各个特征的贡献程度&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="245" y="450" width="310" height="60" as="geometry" />
+        <mxCell id="IYp26X13W8cs2_W33zop-0" value="&lt;span&gt;选取前k只股票通过券商平台执行交易&lt;br&gt;属性权重说明了该次交易中各个特征的贡献程度&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="245" y="465" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
