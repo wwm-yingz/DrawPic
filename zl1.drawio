@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T13:05:50.901Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 Edg/91.0.864.48" etag="sCv1LpFCbowpy3LP-j_I" version="14.7.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-20T05:49:09.514Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.101 Safari/537.36 Edg/91.0.864.48" etag="3gBuv-V0Ek-spzr_ACfc" version="14.7.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="782" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1294" dy="835" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -13,7 +13,7 @@
         <mxCell id="7-Ga_h85uuKf9bJolsEg-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gl--W32Gvghw4PH7IJEt-1" target="Gl--W32Gvghw4PH7IJEt-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Gl--W32Gvghw4PH7IJEt-1" value="通过公开接口获取股票价量数据与财务数据，使用特征工程方法对数据进行处理，计算对应属性。" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="Gl--W32Gvghw4PH7IJEt-1" value="通过公开接口获取股票价量数据与财务数据，使用特征工程方法对数据进行处理，计算对应特征。" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="210" y="95" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7-Ga_h85uuKf9bJolsEg-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gl--W32Gvghw4PH7IJEt-2" target="Gl--W32Gvghw4PH7IJEt-4" edge="1">
@@ -33,7 +33,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="Gl--W32Gvghw4PH7IJEt-4" value="计算区间直觉模糊数决策矩阵" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="Gl--W32Gvghw4PH7IJEt-4" value="使用合成算子计算区间直觉模糊数决策矩阵" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="210" y="265" width="200" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7-Ga_h85uuKf9bJolsEg-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gl--W32Gvghw4PH7IJEt-5" target="7-Ga_h85uuKf9bJolsEg-0" edge="1">
@@ -67,13 +67,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="7-Ga_h85uuKf9bJolsEg-0" value="根据决策矩阵和属性权重使用加权算子计算二级决策矩阵&lt;br&gt;使用得分函数和精确函数计算各个股票的评价值" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="7-Ga_h85uuKf9bJolsEg-0" value="根据决策矩阵和属性权重使用加权算子计算评价矩阵&lt;br&gt;使用得分函数和精确函数计算各个股票的评价值" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="245" y="375" width="310" height="60" as="geometry" />
         </mxCell>
         <mxCell id="7-Ga_h85uuKf9bJolsEg-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="Gl--W32Gvghw4PH7IJEt-5" target="Gl--W32Gvghw4PH7IJEt-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IYp26X13W8cs2_W33zop-0" value="&lt;span&gt;选取前k只股票通过券商平台执行交易&lt;br&gt;属性权重说明了该次交易中各个特征的贡献程度&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+        <mxCell id="IYp26X13W8cs2_W33zop-0" value="&lt;span&gt;选取前k只股票通过券商平台执行交易&lt;br&gt;特征权重说明了该次交易中各个特征的贡献程度&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="245" y="465" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
